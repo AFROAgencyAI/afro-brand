@@ -21,6 +21,7 @@ Single source of truth for AFRO brand. Logo files, design tokens, typography spe
 | `favicon-32.png` | Browser tab, taskbar |
 | `favicon-16.png` | Address bar, tiny UI |
 | `favicon.ico` | Universal favicon (16, 32, 48 multi-res) |
+| `ide-themes/` | On-brand editor themes (Antigravity IDE dark) — see `ide-themes/README.md` |
 
 ---
 

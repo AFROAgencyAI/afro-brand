@@ -1,0 +1,102 @@
+// AFRO brand dark theme — Antigravity IDE
+// Paste the contents below into your Antigravity settings.json:
+//   Cmd+Shift+P -> "Preferences: Open User Settings (JSON)" -> select all -> paste -> Cmd+S
+// macOS live path: ~/Library/Application Support/Antigravity IDE/User/settings.json
+// No window reload needed (title + status bar stay dark).
+{
+    "workbench.colorCustomizations": {
+        "editor.background": "#141413",
+        "editor.foreground": "#E8E6DF",
+        "sideBar.background": "#1C1B19",
+        "sideBar.foreground": "#E8E6DF",
+        "sideBar.border": "#2E2C28",
+        "panel.background": "#1C1B19",
+        "panel.border": "#2E2C28",
+        "editorGroupHeader.tabsBackground": "#1C1B19",
+
+        "titleBar.activeBackground": "#141413",
+        "titleBar.activeForeground": "#FFFFFF",
+        "titleBar.inactiveBackground": "#141413",
+        "titleBar.inactiveForeground": "#8A877D",
+        "titleBar.border": "#2E2C28",
+        "statusBar.background": "#141413",
+        "statusBar.foreground": "#FFFFFF",
+        "statusBar.border": "#2E2C28",
+
+        "activityBar.background": "#1C1B19",
+        "activityBar.foreground": "#FF8000",
+        "activityBar.inactiveForeground": "#FF8000",
+        "activityBar.activeBorder": "#FF8000",
+        "activityBar.activeBackground": "#CC6600",
+        "activityBar.border": "#2E2C28",
+        "activityBarBadge.background": "#FF8000",
+        "activityBarBadge.foreground": "#141413",
+
+        "tab.activeBackground": "#232220",
+        "tab.activeForeground": "#FAF9F5",
+        "tab.inactiveBackground": "#1C1B19",
+        "tab.inactiveForeground": "#8A877D",
+        "tab.border": "#2E2C28",
+        "tab.activeBorderTop": "#FF8000",
+
+        "button.background": "#FF8000",
+        "button.foreground": "#141413",
+        "button.hoverBackground": "#CC6600",
+        "input.background": "#232220",
+        "input.border": "#2E2C28",
+        "input.foreground": "#FAF9F5",
+        "input.placeholderForeground": "#8A877D",
+        "focusBorder": "#FF8000",
+
+        "list.activeSelectionBackground": "#FF800026",
+        "list.activeSelectionForeground": "#FAF9F5",
+        "list.inactiveSelectionBackground": "#232220",
+        "list.hoverBackground": "#232220",
+        "list.highlightForeground": "#FF8000",
+        "editor.selectionBackground": "#FF800033",
+        "editor.selectionHighlightBackground": "#FF80001A",
+        "editor.wordHighlightBackground": "#FF80001A",
+
+        "editorLineNumber.foreground": "#5A5850",
+        "editorLineNumber.activeForeground": "#FF8000",
+        "editor.lineHighlightBackground": "#1C1B19",
+        "editor.lineHighlightBorder": "#00000000",
+        "editorCursor.foreground": "#FF8000",
+        "editorIndentGuide.background1": "#2A2825",
+        "editorIndentGuide.activeBackground1": "#5A5850",
+        "editorWhitespace.foreground": "#2A2825",
+        "editorGutter.background": "#141413",
+        "editor.findMatchBackground": "#FF800066",
+        "editor.findMatchHighlightBackground": "#FF800033",
+
+        "editorBracketHighlight.foreground1": "#FF8000",
+        "editorBracketHighlight.foreground2": "#F0C36D",
+        "editorBracketHighlight.foreground3": "#A3BE6F",
+        "editorBracketHighlight.foreground4": "#82AAC4",
+        "editorBracketHighlight.foreground5": "#D9C68A",
+        "editorBracketHighlight.foreground6": "#B5B2A8",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#E5544B"
+    },
+
+    "editor.tokenColorCustomizations": {
+        "comments": "#7A776D",
+        "textMateRules": [
+            { "scope": ["comment", "punctuation.definition.comment"], "settings": { "foreground": "#7A776D", "fontStyle": "italic" } },
+            { "scope": ["variable", "variable.other", "meta.definition.variable"], "settings": { "foreground": "#E8E6DF" } },
+            { "scope": ["keyword", "keyword.control", "storage", "storage.type", "storage.modifier", "keyword.operator.new"], "settings": { "foreground": "#FF8000" } },
+            { "scope": ["entity.name.function", "support.function", "meta.function-call"], "settings": { "foreground": "#F0C36D" } },
+            { "scope": ["string", "string.quoted", "string.template", "punctuation.definition.string"], "settings": { "foreground": "#A3BE6F" } },
+            { "scope": ["constant.numeric", "constant.language", "constant.language.boolean", "constant.other", "support.constant"], "settings": { "foreground": "#82AAC4" } },
+            { "scope": ["entity.name.type", "entity.name.class", "support.type", "support.class", "entity.other.inherited-class"], "settings": { "foreground": "#D9C68A" } },
+            { "scope": ["keyword.operator", "punctuation", "meta.brace", "punctuation.separator", "punctuation.terminator"], "settings": { "foreground": "#B5B2A8" } },
+            { "scope": ["entity.name.tag", "punctuation.definition.tag"], "settings": { "foreground": "#FF8000" } },
+            { "scope": ["entity.other.attribute-name"], "settings": { "foreground": "#F0C36D" } },
+            { "scope": ["variable.parameter", "meta.parameter"], "settings": { "foreground": "#E8E6DF" } },
+            { "scope": ["variable.other.property", "support.variable.property", "meta.object-literal.key"], "settings": { "foreground": "#D9C68A" } },
+            { "scope": ["invalid", "invalid.illegal"], "settings": { "foreground": "#E5544B" } },
+            { "scope": ["markup.heading", "markup.bold"], "settings": { "foreground": "#FF8000", "fontStyle": "bold" } },
+            { "scope": ["markup.italic"], "settings": { "fontStyle": "italic" } },
+            { "scope": ["markup.inline.raw", "markup.fenced_code"], "settings": { "foreground": "#A3BE6F" } }
+        ]
+    }
+}
